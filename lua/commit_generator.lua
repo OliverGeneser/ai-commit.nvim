@@ -11,6 +11,7 @@ For each message, focus on a different significant aspect of the changes
 Return ONLY the commit messages - no introduction, no quotes, and no explanations
 Each message should be concise, stating only WHAT was done, not WHY
 Each message should have a single type and scope, focusing on one aspect of the changes
+The scope should ONLY be added if there is a CLEAR scope like in a monorepo with different apps and packages
 
 Examples of good diverse commit messages for the same diff:
 feat(auth): implement user login functionality
